@@ -8,7 +8,7 @@ import { useStateValue } from '../StateProvider';
 
 
 function Login() {
-    const [state, dispatch] = useStateValue(); 
+    const [user, dispatch] = useStateValue(); 
 
     const signIn = () => {
         // clever sign in
